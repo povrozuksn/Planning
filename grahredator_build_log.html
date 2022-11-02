@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>grahredator build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>02-11-2022 at 18:42.19</u><br />
+Build ended on: <u>02-11-2022 at 18:42.24</u><p />
+<b>-------------- Build: Debug in grahredator (compiler: GNU GCC Compiler)---------------</b><br />
+g++.bat -Wall -fexceptions  -g     -c C:\Users\root\source\repos\redactor-main\main.cpp -o obj\Debug\main.o<br />
+------------------------------------------------------------------------------------------------------<br />
+Compilation ERRORS:<br />
+<br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In function 'void drawButton(Button)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:25:6: warning: no previous declaration for 'void drawButton(Button)' [-Wmissing-declarations]</font><br />
+ void drawButton(Button btn)<br />
+      ^<br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In function 'bool click(Button)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:38:6: warning: no previous declaration for 'bool click(Button)' [-Wmissing-declarations]</font><br />
+ bool click(Button btn)<br />
+      ^<br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In function 'void drawPicture(Pictures)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:47:6: warning: no previous declaration for 'void drawPicture(Pictures)' [-Wmissing-declarations]</font><br />
+ void drawPicture(Pictures pct)<br />
+      ^<br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In constructor 'Button::Button()':<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:16:8: warning: 'Button::x' should be initialized in the member initialization list [-Weffc++]</font><br />
+ struct Button<br />
+        ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:16:8: warning: 'Button::y' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:16:8: warning: 'Button::text' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:16:8: warning: 'Button::category' should be initialized in the member initialization list [-Weffc++]</font><br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In function 'int main()':<br />
+C:\Users\root\source\repos\redactor-main\main.cpp:71:29: note: synthesized method 'Button::Button()' first required here <br />
+         Button btn[COUNT_BTN];<br />
+                             ^<br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In constructor 'Pictures::Pictures()':<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::x' should be initialized in the member initialization list [-Weffc++]</font><br />
+ struct Pictures<br />
+        ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::y' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::image' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::w' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::h' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::w_scr' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::h_scr' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::visible' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:3:8: warning: 'Pictures::category' should be initialized in the member initialization list [-Weffc++]</font><br />
+C:\Users\root\source\repos\redactor-main\main.cpp: In function 'int main()':<br />
+C:\Users\root\source\repos\redactor-main\main.cpp:79:35: note: synthesized method 'Pictures::Pictures()' first required here <br />
+         Pictures menuPic[COUNT_PIC];<br />
+                                   ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:201:54: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+                     centralPic[vybor].x = txMouseX() - centralPic[vybor].w/2;<br />
+                                                      ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\redactor-main\main.cpp:202:54: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+                     centralPic[vybor].y = txMouseY() - centralPic[vybor].h/2;<br />
+                                                      ^<br />
+------------------------------------------------------------------------------------------------------<br />
+Autosaving to the Git repository in C:/Users/root/source/repos/redactor-main/.git-auto/... <br />
+g++.exe  -o bin\Debug\grahredator.exe obj\Debug\main.o     -mwindows<br />
+Output size is 2,19 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 5 seconds)</font><br />
+<font color="#0000ff">0 errors, 18 warnings (0 minutes, 5 seconds)</font><br />
+</tt>
+</body>
+</html>
